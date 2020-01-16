@@ -8,9 +8,9 @@ file = os.getcwd()  # Chemin du fichier
 chemin = os.path.dirname(__file__)  # Ces lignes permettent de retrouver le chemin qui nous intéresse, ici le chemin
 # /images pour les utiliser dans le projet
 chemin = os.path.dirname(chemin)
-pathImage = os.path.join(chemin, "1DEV\images")  # Chemin des images
-pathFiles = os.path.join(chemin, "1DEV\sysfiles") # Chemin des fichiers de jeu
-pathMusic = os.path.join(chemin, "1DEV\musics") # Chemin des sons de jeu
+pathImage = os.path.join(chemin, "MrDriller-master\images")  # Chemin des images
+pathFiles = os.path.join(chemin, "MrDriller-master\sysfiles") # Chemin des fichiers de jeu
+pathMusic = os.path.join(chemin, "MrDriller-master\musics") # Chemin des sons de jeu
 WHITE = (255, 255, 255) # Définition d'une variable de couleur
 RED = (255, 0, 0) # Définition d'une variable de couleur
 GREEN = (0, 255, 0) # Définition d'une variable de couleur
