@@ -2,7 +2,7 @@ from drillerAlgo import *
 file = os.getcwd()  # Chemin du fichier
 chemin = os.path.dirname(__file__)
 chemin = os.path.dirname(chemin)
-pathImage = os.path.join(chemin, "1DEV\images")  # Chemin des images
+pathImage = os.path.join(chemin, "MrDriller-master\images")  # Chemin des images
 
 #Redirection du chemin vers le dossier des images et initialisation des variables essentielles
 os.chdir(pathImage)
